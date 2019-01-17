@@ -1,0 +1,22 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "An interesting Node.js app from Indrit and Simon",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Indrit Kello <indritkello97@gmail.com>, Simon Gjetaj <gjetajsimon@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "nodemon": "^1.14.11",
+    "randomstring": "^1.1.5",
+    "request": "^2.83.0"
+  },
+  "repository": "https://github.com/indritkello/nodeApp.git"
+}
